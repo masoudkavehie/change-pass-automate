@@ -1,12 +1,12 @@
 [all]
-server1 ansible_host=PLACEHOLDER_IP 
-server2 ansible_host=PLACEHOLDER_IP
-server3 ansible_host=PLACEHOLDER_IP
-server4 ansible_host=PLACEHOLDER_IP
-server5 ansible_host=PLACEHOLDER_IP
-server6 ansible_host=PLACEHOLDER_IP
-server7 ansible_host=PLACEHOLDER_IP
-server8 ansible_host=PLACEHOLDER_IP
+server1 ansible_host=192.168.21.133 
+#server2 ansible_host=PLACEHOLDER_IP
+#server3 ansible_host=PLACEHOLDER_IP
+#server4 ansible_host=PLACEHOLDER_IP
+#server5 ansible_host=PLACEHOLDER_IP
+#server6 ansible_host=PLACEHOLDER_IP
+#server7 ansible_host=PLACEHOLDER_IP
+#server8 ansible_host=PLACEHOLDER_IP
 
 [all:vars]
 ansible_user=root

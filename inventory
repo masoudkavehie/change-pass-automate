@@ -1,0 +1,15 @@
+[all]
+server1 ansible_host=PLACEHOLDER_IP 
+server2 ansible_host=PLACEHOLDER_IP
+server3 ansible_host=PLACEHOLDER_IP
+server4 ansible_host=PLACEHOLDER_IP
+server5 ansible_host=PLACEHOLDER_IP
+server6 ansible_host=PLACEHOLDER_IP
+server7 ansible_host=PLACEHOLDER_IP
+server8 ansible_host=PLACEHOLDER_IP
+
+[all:vars]
+ansible_user=root
+ansible_password=12345
+ansible_port=22
+

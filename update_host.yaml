@@ -1,0 +1,9 @@
+---
+ - hosts: all
+   become: yes
+   tasks:
+    - name: Update ansible_hosts variable
+      lineinfile:
+        path: /home/masoud/irancellchangepassword/inventory
+        line: "server  ansible_hostname={{ item.ip }}"
+      with_items: "{{lookup('file', 'ip_list.txt').splitelines() | zip(hostname) | list }}"
